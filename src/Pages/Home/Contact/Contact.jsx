@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiSolidContact } from 'react-icons/bi';
+import { BsSendFill } from 'react-icons/bs';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const Contact = () => {
@@ -48,7 +49,7 @@ const Contact = () => {
                                     <input type="text" placeholder="type here" className="input input-bordered rounded-xl" />
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-primary rounded-xl">Send</button>
+                                    <button className="btn btn-primary text-lg rounded-xl"><BsSendFill/>Send</button>
                                 </div>
                             </div>
                         </div>

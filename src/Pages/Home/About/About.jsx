@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className='my-16'>
-            <div className='flex items-center justify-center gap-5 mb-10'>
+            <div className='flex items-center justify-center gap-5 mb-16'>
                 <LiaUserSecretSolid className='text-3xl' />
                 <h1 className='text-center text-3xl font-bold'>About me</h1>
             </div>
