@@ -29,7 +29,7 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">My Portfolio</a>
+                    <Link to='/' className="btn bg-black border-0 font-bold hover:bg-white hover:text-black normal-case text-xl rounded">My Portfolio</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
