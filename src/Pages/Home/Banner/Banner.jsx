@@ -45,7 +45,7 @@ const Banner = () => {
                             <BiDownload className='text-2xl' />
                         </div>
 
-                        <Link to='/projects'>
+                        <Link to=''>
                             <div className="btn bg-white text-black rounded text-lg flex justify-between hover:text-white">
                                 <button>My Projects</button>
                                 <BiCodeAlt className='text-2xl' />

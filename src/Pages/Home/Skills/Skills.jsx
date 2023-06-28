@@ -22,7 +22,7 @@ const Skills = () => {
                 </h3>
             </div>
 
-            <div className='ml-16 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-10 my-10'>
+            <div className='ml-8 md:ml-0 px-10 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-10 my-10'>
                 <div>
                     <div className="mx-5 card w-[150px] h-[190px] border-black rounded-lg border-2 shadow-xl">
                         <div className="card-body bg-white rounded-lg">
