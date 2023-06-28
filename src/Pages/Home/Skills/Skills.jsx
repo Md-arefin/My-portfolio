@@ -11,14 +11,14 @@ import Git from '../../../assets/skills/Git-logo.svg.png'
 import tailwind from '../../../assets/skills/tailwind.png'
 import react from '../../../assets/skills/react.png'
 import node from '../../../assets/skills/images.png'
-// import html from '../../../assets/skills/HTML.png'
+import strip from '../../../assets/skills/strip.png'
 
 const Skills = () => {
     return (
-        <div className='my-16 bg-slate-500 py-10'>
+        <div className='my-16  py-10'>
             <div className='flex items-center justify-center gap-5'>
-                <PiProjectorScreenChartFill className='text-4xl text-slate-950 mt-2' />
-                <h3 className='text-center text-4xl font-bold text-black'>My Skills
+                <PiProjectorScreenChartFill className='text-4xl text-white mt-2' />
+                <h3 className='text-center text-4xl font-bold text-white'>My Skills
                 </h3>
             </div>
 
@@ -99,6 +99,13 @@ const Skills = () => {
                         <div className="card-body bg-white rounded-lg">
                             <figure><img src={Express} alt="Shoes" /></figure>
                             <p className='text-2xl text-black font-bold'>Express</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="mx-5 card w-[150px]  h-[190px] border-black rounded-lg border-2">
+                        <div className="card-body bg-white rounded-lg">
+                            <figure><img className='pt-10' src={strip} alt="Shoes" /></figure>
                         </div>
                     </div>
                 </div>
