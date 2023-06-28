@@ -10,11 +10,17 @@ const Footer = () => {
             <footer className="footer p-10 bg-slate-600 text-black">
                 <div>
                     <div className="avatar">
-                        <div className="w-24 rounded">
+                        <div className="w-16 mx-16 mb-5 rounded">
                             <img src={my1} />
                         </div>
                     </div>
-                    <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                    <p>
+                        <span className='font-bold text-3xl'>
+                            Rakibul Ansari Arifin
+                        </span>
+                        <br />
+                        Providing reliable tech since 20223
+                    </p>
                 </div>
                 <div>
                     <span className="footer-title">Services</span>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { BiDownload, BiCodeAlt } from 'react-icons/bi';
+import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
@@ -22,11 +23,20 @@ const Banner = () => {
                     <h1>
                         Hi, I am <br />
                     </h1>
-                    <p className='mt-5 text-3xl md:text-5xl font-bold'>Rakibul Ansari Arifin</p>
+                    <p className='mt-5 text-3xl md:text-5xl font-bold text-rose-700'>Rakibul Ansari Arifin</p>
                     <p className='my-5 font-semibold text-lg'>MERN Stack Developer</p>
                     <p>
                         Welcome to my portfolio, where innovation meets functionality. As a MERN Stack Developer, I specialize in creating robust and scalable web applications. With a passion for seamless user experiences and a knack for transforming ideas into MERN-powered solutions, I bring your digital vision to life. Explore my work and let's embark on a journey of code, creativity, and limitless possibilities.
                     </p>
+                    <div className='flex gap-5 my-5'>
+                      <Link to='https://www.linkedin.com/in/rakibul-ansari-arefin-290aa4231'>
+                      <FaLinkedin className='text-3xl' />
+                      </Link>
+
+                        <Link to='https://github.com/Md-arefin'>
+                            <FaGithubSquare className='text-3xl' />
+                        </Link>
+                    </div>
                     <div className='flex flex-col md:flex-row gap-10 my-5'>
 
 
