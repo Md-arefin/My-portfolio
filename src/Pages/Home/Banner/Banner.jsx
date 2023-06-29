@@ -29,9 +29,9 @@ const Banner = () => {
                     <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
-                            'I am a passionate and dedicated',
+                            'A passionate and dedicated',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'MERN Stack Developer',
+                            'MERN Stack Developer.',
                             1000,
                             // 'We produce food for Guinea Pigs',
                             // 1000,
