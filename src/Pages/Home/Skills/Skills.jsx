@@ -31,9 +31,11 @@ const Skills = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="mx-5 card w-[150px] h-[190px] border-black rounded-lg border-2">
+                    <div className="mx-5 card w-[150px] h-[190px]  border-black rounded-lg border-2">
                         <div className="card-body bg-white rounded-lg">
-                            <figure><img src={css} alt="Shoes" /></figure>
+                            <figure>
+                                <img className='hover:scale-100' src={css} alt="Shoes" />
+                            </figure>
                         </div>
                     </div>
                 </div>
