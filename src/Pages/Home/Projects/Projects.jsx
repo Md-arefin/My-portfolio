@@ -32,19 +32,19 @@ const Projects = () => {
 
                             SpeedyWheel leverages various npm packages to enhance functionality and streamline development processes. This powerful tech stack enables SpeedyWheel to deliver a speedy, reliable, and user-friendly rental car experience.
                         </p>
-                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 items-center justify-center mb-32'>
+                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32'>
                             <Link to='https://gilded-rabanadas-2de7f6.netlify.app/'>
-                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] ">
+                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                     <button >Live link</button>
                                     <HiLink className='text-white text-lg' />
                                 </div>
                             </Link>
                             <details className="dropdown">
-                                <summary className="bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn">
+                                <summary className="bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn w-full">
                                    <BsGithub className='text-lg rounded-lg' />GitHub
                                 </summary>
 
-                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box md:w-52 w-full">
                                     <Link to='https://github.com/Md-arefin/speedy-wheels-client'>
                                         <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white'>
                                         <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
@@ -85,20 +85,20 @@ const Projects = () => {
 
                             SpeedyWheel leverages various npm packages to enhance functionality and streamline development processes. This powerful tech stack enables SpeedyWheel to deliver a speedy, reliable, and user-friendly rental car experience.
                         </p>
-                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 items-center justify-center mb-32'>
+                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
                             <Link to='https://creative-capture.netlify.app/'>
-                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] ">
+                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                     <button >Live link</button>
                                     <HiLink className='text-white text-lg' />
                                 </div>
                             </Link>
                             <details className="dropdown ">
-                                <summary className="text-lg bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn">
+                                <summary className="text-lg bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full btn">
                                     <BsGithub className='text-lg' /> GitHub
                                 </summary>
-                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-transparent rounded-box w-52">
+                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-transparent rounded-box md:w-52 w-full">
                                     <Link to='https://github.com/Md-arefin/creative-capture'>
-                                        <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white'>
+                                        <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white '>
                                         <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
                                         </li>
                                     </Link>
@@ -129,18 +129,18 @@ const Projects = () => {
 
                             SpeedyWheel leverages various npm packages to enhance functionality and streamline development processes. This powerful tech stack enables SpeedyWheel to deliver a speedy, reliable, and user-friendly rental car experience.
                         </p>
-                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 items-center justify-center mb-32'>
+                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32'>
                             <Link to='https://jovial-trifle-a9e90c.netlify.app/'>
-                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] ">
+                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                     <button >Live link</button>
                                     <HiLink className='text-white text-lg' />
                                 </div>
                             </Link>
                             <details className="dropdown">
-                                <summary className="bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn text-lg">
+                                <summary className="bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn text-lg w-full">
                                     <BsGithub className='text-lg' /> GitHub
                                 </summary>
-                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-full md:w-52">
                                     <Link to='https://github.com/Md-arefin/elite-gaming'>
                                         <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white'>
                                         <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
@@ -148,7 +148,7 @@ const Projects = () => {
                                     </Link>
 
                                     <Link to='https://github.com/Md-arefin/elite-gaming-server'>
-                                        <li className='bg-rose-600 rounded-lg text-lg font-semibold mt-5 hover:bg-black hover:text-white'>
+                                        <li className='bg-rose-600 rounded-lg text-lg font-semibold mt-5 hover:bg-black hover:text-white '>
                                             <span className='text-center rounded-lg'> <BsGithub className='text-lg' />Server Side</span>
                                         </li>
                                     </Link>
@@ -173,7 +173,7 @@ const Projects = () => {
                     <div className='lg:w-1/2'>
                         <div className='flex gap-5'>
                             <GiForkKnifeSpoon className='text-3xl mt-2 text-rose-700' />
-                            <h2 className='text-center text-3xl font-bold mb-5'>Turkish Table Treasure</h2>
+                            <h2 className='text-center text-2xl md:text-3xl font-bold mb-5'>Turkish Table Treasure</h2>
                         </div>
                         <p>
                             SpeedyWheel is a modern rental car site powered by React, Tailwind, DaisyUI, Stripe, Node.js, Express, Firebase, and MongoDB. The website features a sleek design with responsive layouts, ensuring a seamless user experience across devices.
@@ -184,18 +184,18 @@ const Projects = () => {
 
                             SpeedyWheel leverages various npm packages to enhance functionality and streamline development processes. This powerful tech stack enables SpeedyWheel to deliver a speedy, reliable, and user-friendly rental car experience.
                         </p>
-                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 items-center justify-center mb-32'>
+                        <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
                             <Link to="https://bespoke-pastelito-b45c1f.netlify.app/">
-                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] ">
+                                <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                     <button >Live link</button>
                                     <HiLink className='text-white text-lg' />
                                 </div>
                             </Link>
                             <details className="dropdown">
-                                <summary className="text-lg bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn">
+                                <summary className="text-lg bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] btn w-full">
                                     <BsGithub className='text-lg' />GitHub
                                 </summary>
-                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-full md:w-52">
                                     <Link to='https://github.com/Md-arefin/turkish-table-treasure-Client'>
                                         <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white'>
                                         <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
