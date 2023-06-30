@@ -2,7 +2,8 @@ import React from 'react';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { BiDownload, BiCodeAlt } from 'react-icons/bi';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
@@ -40,20 +41,20 @@ const Banner = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style={{ fontSize: '2em', display: 'inline-block',margin:'20px 0'  }}
+                        style={{ fontSize: '2em', display: 'inline-block', margin: '20px 0' }}
                         repeat={Infinity}
                     />
                     <p>
                         Welcome to my portfolio, where innovation meets functionality. As a MERN Stack Developer, I specialize in creating robust and scalable web applications. With a passion for seamless user experiences and a knack for transforming ideas into MERN-powered solutions, I bring your digital vision to life. Explore my work and let's embark on a journey of code, creativity, and limitless possibilities.
                     </p>
                     <div className='flex gap-5 my-5'>
-                        <Link to='https://www.linkedin.com/in/rakibul-ansari-arefin-290aa4231'>
+                        <a href='https://www.linkedin.com/in/rakibul-ansari-arefin-290aa4231'>
                             <FaLinkedin className='text-3xl' />
-                        </Link>
+                        </a>
 
-                        <Link to='https://github.com/Md-arefin'>
+                        <a href='https://github.com/Md-arefin'>
                             <FaGithubSquare className='text-3xl' />
-                        </Link>
+                        </a>
                     </div>
                     <div className='flex flex-col md:flex-row gap-10 my-5'>
 
@@ -63,7 +64,12 @@ const Banner = () => {
                             <BiDownload className='text-2xl' />
                         </div>
 
-                        <Link to=''>
+                        <Link activeClass="active"
+                            to="Projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500} F>
                             <div className="btn bg-white text-black rounded text-lg flex justify-between hover:text-white">
                                 <button>My Projects</button>
                                 <BiCodeAlt className='text-2xl' />
