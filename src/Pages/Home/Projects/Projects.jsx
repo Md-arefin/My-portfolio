@@ -16,7 +16,7 @@ const Projects = () => {
     const springAnimation = {
         hidden: {
             opacity: 0,
-            x: 300
+            x: 100
         },
 
         visible: {
@@ -33,7 +33,7 @@ const Projects = () => {
     const secondAnimation = {
         hidden: {
             opacity: 0,
-            x: -300
+            x: -100
         },
 
         visible: {
@@ -49,7 +49,7 @@ const Projects = () => {
     const thirdAnimation = {
         hidden: {
             opacity: 0,
-            x: 300
+            x: 100
         },
 
         visible: {
@@ -66,7 +66,7 @@ const Projects = () => {
     const forthAnimation = {
         hidden: {
             opacity: 0,
-            x: -300
+            x: -100
         },
 
         visible: {
