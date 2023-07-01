@@ -15,7 +15,7 @@ const Contact = () => {
 
         emailjs.sendForm(
             'service_xf2r2mp',
-            'template_eomf4gp',
+            'template_bjhtqjr',
             form.current,
             'wkqmGMaz1204H7Pz9')
             .then((result) => {
@@ -26,7 +26,7 @@ const Contact = () => {
                     title: 'Your mail has been send',
                     showConfirmButton: false,
                     timer: 1500
-                  })
+                })
             }, (error) => {
                 console.log(error);
             });
@@ -61,26 +61,38 @@ const Contact = () => {
                                         <label className="label">
                                             <span className="text-black label-text">Your Name</span>
                                         </label>
-                                        <input type="text" name="from_name" placeholder="Enter your name" className="input input-bordered rounded-xl" />
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Enter your name"
+                                            className="input input-bordered rounded-xl" />
                                     </div>
 
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="text-black label-text">Email</span>
                                         </label>
-                                        <input type="text" name="from_email" placeholder="Enter your email" className="input input-bordered rounded-xl" />
+                                        <input type="email"
+                                            name="email"
+                                            placeholder="Enter your email"
+                                            className="input input-bordered rounded-xl" />
                                     </div>
 
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="label-text text-black">Message</span>
                                         </label>
-                                        <textarea name="message" placeholder="Type here..." className="input input-bordered rounded-xl" />
+                                        <textarea
+                                            name="message"
+                                            placeholder="Type here..."
+                                            className="input input-bordered rounded-xl" />
                                     </div>
                                     <div className="form-control mt-6">
                                         <label className="btn btn-primary text-lg rounded-xl">
                                             <BsSendFill />
-                                            <input type='submit' value='Send' />
+                                            <input
+                                                type='submit'
+                                                value='Send' />
                                         </label>
                                     </div>
                                 </form>
