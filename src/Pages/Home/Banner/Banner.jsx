@@ -11,7 +11,7 @@ const Banner = () => {
 
 
     const handleDownloadResume = () => {
-        const resumeUrl = 'https://drive.google.com/file/d/1G6oxPaJ6v2srwkytfb0Ry5e1th5yOwmZ/view?usp=drive_link'
+        const resumeUrl = 'Resume-of-Rakibul-Ansari-Arifin.pdf'
         const downloadLink = document.createElement('a');
         downloadLink.href = resumeUrl;
         downloadLink.download = 'Resume-of-Rakibul-Ansari-Arifin.pdf';
