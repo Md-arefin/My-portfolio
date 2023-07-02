@@ -48,11 +48,11 @@ const Banner = () => {
                         Welcome to my portfolio, where innovation meets functionality. As a MERN Stack Developer, I specialize in creating robust and scalable web applications. With a passion for seamless user experiences and a knack for transforming ideas into MERN-powered solutions, I bring your digital vision to life. Explore my work and let's embark on a journey of code, creativity, and limitless possibilities.
                     </p>
                     <div className='flex gap-5 my-5'>
-                        <a href='https://www.linkedin.com/in/rakibul-ansari-arefin-290aa4231'>
+                        <a target='_blank' href='https://www.linkedin.com/in/rakibul-ansari-arefin-290aa4231'>
                             <FaLinkedin className='text-3xl' />
                         </a>
 
-                        <a href='https://github.com/Md-arefin'>
+                        <a target='_blank' href='https://github.com/Md-arefin'>
                             <FaGithubSquare className='text-3xl' />
                         </a>
                     </div>
