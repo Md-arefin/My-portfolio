@@ -120,7 +120,7 @@ const Projects = () => {
                                         SpeedyWheel leverages various npm packages to enhance functionality and streamline development processes. This powerful tech stack enables SpeedyWheel to deliver a speedy, reliable, and user-friendly rental car experience.
                                     </p>
                                     <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32'>
-                                        <Link target='_blank' to='https://gilded-rabanadas-2de7f6.netlify.app/'>
+                                        <Link target='_blank' to='https://speedy-wheels-6772f.web.app/'>
                                             <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                                 <button >Live link</button>
                                                 <HiLink className='text-white text-lg' />
@@ -175,7 +175,7 @@ const Projects = () => {
                                         I developed an e-learning site for photography enthusiasts, offering courses for aspiring photographers. The site is built using technologies that includes React.js, Tailwind, DaisyUI, Firebase, MongoDB, Node.js, Stripe for payment processing, Express.js, React-Query, JWT, and several NPM packages. The platform features distinct user-based dashboards tailored for students, instructors, and administrators. On the homepage, visitors are presented with a curated selection of top-rated classes and renowned instructors, prioritized based on the number of enrolled students. This setup ensures that users can easily explore and access high-quality photography courses while providing instructors with visibility and recognition based on their popularity among learners.
                                     </p>
                                     <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
-                                        <Link target='_blank' to='https://creative-capture.netlify.app/'>
+                                        <Link target='_blank' to='https://creative-capture-2ad74.web.app/'>
                                             <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                                 <button >Live link</button>
                                                 <HiLink className='text-white text-lg' />
@@ -222,7 +222,7 @@ const Projects = () => {
                                         I have developed an online platform where individuals can discover a wide range of gaming accessories. The website is built using React, Tailwind, DaisyUI, Firebase, MongoDB, Node.js, Express.js, and various NPM packages. While it functions similarly to an e-commerce site, payment integration has not been implemented yet. Sellers have the ability to add products for sale, update product details if necessary, and delete listings. They can view all products available for sale but have exclusive editing rights for their own listings. To showcase elite products on the homepage, I have utilized React tabs and other relevant components.
                                     </p>
                                     <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32'>
-                                        <Link target='_blank' to='https://jovial-trifle-a9e90c.netlify.app/'>
+                                        <Link target='_blank' to='https://video-games-world.web.app/'>
                                             <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                                 <button >Live link</button>
                                                 <HiLink className='text-white text-lg' />

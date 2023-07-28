@@ -12,7 +12,6 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-
         emailjs.sendForm(
             'service_xf2r2mp',
             'template_bjhtqjr',
@@ -27,7 +26,8 @@ const Contact = () => {
                     showConfirmButton: false,
                     timer: 1500
                 })
-            }, (error) => {
+            },
+            (error) => {
                 console.log(error);
             });
 

@@ -37,6 +37,7 @@ const About = () => {
 
                         className='flex items-center justify-evenly gap-5 flex-col md:flex-row '>
                         <div className='lg:w-1/2 px-10 lg:ml-[150px]'>
+                            {/* <img className='lg:w-[70%] rounded-3xl' src="https://i.ibb.co/CPzMH7K/42874.jpg" alt="" /> */}
                             <img className='lg:w-[70%] rounded-3xl' src="https://i.ibb.co/NCtyc0J/my-1-1.jpg" alt="" />
                         </div>
                         <div className='lg:w-1/2 lg:mr-[100px] px-2'>
