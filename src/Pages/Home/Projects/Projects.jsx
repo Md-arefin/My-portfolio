@@ -3,6 +3,7 @@ import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { HiLink } from 'react-icons/hi';
 import { BsGithub, BsFillCarFrontFill } from 'react-icons/bs';
 import { FaCameraRetro } from 'react-icons/fa';
+import { SiGoogleclassroom } from 'react-icons/si';
 import { GiForkKnifeSpoon, GiConsoleController } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 import { InView } from 'react-intersection-observer';
@@ -260,26 +261,26 @@ const Projects = () => {
                     <InView>
                         {({ inView, ref }) => (
                             <motion.div
-                            ref={ref}
+                                ref={ref}
                                 initial="hidden"
                                 animate={inView ? 'visible' : 'hidden'}
                                 variants={forthAnimation}
-                            className='flex flex-col md:flex-row justify-between gap-10'>
+                                className='flex flex-col md:flex-row justify-between gap-10'>
                                 <div>
                                     <div className='lg:mt-10'>
-                                        <img className='rounded-xl' src="https://i.ibb.co/ydv9NBb/Screenshot-42-1.png" alt="" />
+                                        <img className='rounded-xl' src="https://i.ibb.co/WyyR3Y8/College-Hub-1.png" alt="" />
                                     </div>
                                 </div>
                                 <div className='lg:w-1/2'>
                                     <div className='flex gap-5'>
-                                        <GiForkKnifeSpoon className='text-3xl mt-2 text-rose-700' />
-                                        <h2 className='text-center text-2xl md:text-3xl font-bold mb-5'>Turkish Table Treasure</h2>
+                                        <SiGoogleclassroom className='text-3xl mt-2 text-rose-700' />
+                                        <h2 className='text-center text-2xl md:text-3xl font-bold mb-5'>College Hub</h2>
                                     </div>
                                     <p>
-                                        I have developed an online website where users can explore renowned Turkish chefs. The website is built using React, Bootstrap, Firebase, Node.js, Express.js, and several NPM packages. The platform features profiles of six famous chefs, showcasing their personal cooking styles and the number of recipes they have created. Additionally, the site offers a collection of popular recipes curated by these chefs. Users can also access a blog page for interesting culinary content. This platform serves as a comprehensive hub for discovering talented Turkish chefs, their unique cooking approaches, delightful recipes, and engaging food-related articles.
+                                        Welcome to College Hub, your one-stop destination for college bookings! Our sleek web app offers a seamless user experience with a user-friendly navigation bar, search functionality for colleges, and captivating college cards displaying admission dates, events, research, and sports. Dive deeper into college details by clicking 'Details,' and explore the graduate gallery and research paper links. Share your thoughts in the review section. Secure login and registration, along with profile editing, enhance personalization. Enjoy full responsiveness across all devices and discover a creative 404 route. College Hub - your gateway to a world of educational opportunities!
                                     </p>
                                     <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
-                                        <Link target='_blank' to="https://bespoke-pastelito-b45c1f.netlify.app/">
+                                        <Link target='_blank' to="https://college-hub-5bd22.web.app/">
                                             <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
                                                 <button >Live link</button>
                                                 <HiLink className='text-white text-lg' />
@@ -290,13 +291,13 @@ const Projects = () => {
                                                 <BsGithub className='text-lg' />GitHub
                                             </summary>
                                             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-full md:w-52">
-                                                <Link target='_blank' to='https://github.com/Md-arefin/turkish-table-treasure-Client'>
+                                                <Link target='_blank' to='https://github.com/Md-arefin/college-hub-client'>
                                                     <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white'>
                                                         <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
                                                     </li>
                                                 </Link>
 
-                                                <Link target='_blank' to='https://github.com/Md-arefin/turkish-table-treasure-Server'>
+                                                <Link target='_blank' to='https://github.com/Md-arefin/college-hub-server'>
                                                     <li className='bg-rose-600 rounded-lg text-lg font-semibold mt-5 hover:bg-black hover:text-white'>
                                                         <span className='text-center rounded-lg'> <BsGithub className='text-lg' />Server Side</span>
                                                     </li>
