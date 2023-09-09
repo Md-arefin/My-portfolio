@@ -10,7 +10,7 @@ const Footer = () => {
             <footer className="footer p-10 bg-slate-600 text-black">
                 <div>
                     <div className="avatar">
-                        <div className="w-16 mx-16 mb-5 rounded">
+                        <div className="w-24 mx-16 mb-5 rounded">
                             <img src={my1} />
                         </div>
                     </div>
