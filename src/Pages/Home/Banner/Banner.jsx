@@ -11,10 +11,10 @@ const Banner = () => {
 
 
     const handleDownloadResume = () => {
-        const resumeUrl = 'Resume-of-Rakibul-Ansari-Arifin.pdf'
+        const resumeUrl = 'Resume - Rakibul Ansari arifin.pdf'
         const downloadLink = document.createElement('a');
         downloadLink.href = resumeUrl;
-        downloadLink.download = 'Resume-of-Rakibul-Ansari-Arifin.pdf';
+        downloadLink.download = 'Resume - Rakibul Ansari arifin.pdf';
         downloadLink.click();
     };
 
