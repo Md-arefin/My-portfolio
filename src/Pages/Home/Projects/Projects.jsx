@@ -1,12 +1,13 @@
 import React from 'react';
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { HiLink } from 'react-icons/hi';
+import { Element } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { BsGithub, BsFillCarFrontFill, BsShop } from 'react-icons/bs';
 import { FaCameraRetro } from 'react-icons/fa';
 import { SiGoogleclassroom } from 'react-icons/si';
+import { HiUserGroup } from 'react-icons/hi';
 import { GiConsoleController } from 'react-icons/gi';
-import { Link } from 'react-router-dom';
-import { Element } from 'react-scroll';
 
 
 
@@ -22,9 +23,52 @@ const Projects = () => {
                 </div>
 
                 {/* Projects */}
-                
+
                 <div className='my-16 md:w-[85%] mx-auto'>
                     {/* 1*/}
+                    <div className='flex flex-col md:flex-row justify-between gap-10 group'>
+                        <div className='lg:w-1/2'>
+                            <div className='flex gap-5'>
+                                <HiUserGroup className='text-3xl text-rose-700' />
+                                <h2 className='text-center text-3xl font-bold hover:bg-black hover:text-white'>Galaxy Meet</h2>
+                            </div>
+                            <p className='md:my-5'>
+                                Galaxy Meet is a feature-rich video calling web application with a role-based access system that distinguishes between administrators and regular users. It leverages a robust technology stack that includes AXIOS, React, Tailwind CSS, Firebase, MongoDB, and JWT for secure authentication. Hosting on Vercel ensures excellent performance. To enhance real-time communication, the application uses Socket.io, which allows users to connect seamlessly for video calls. The use of JavaScript, Redux, Node.js, and Express.js ensures a smooth and responsive user experience. Administrators have the power to manage user roles and permissions, while regular users can easily connect and enjoy the seamless video calling experience provided by Galaxy Meet.
+                            </p>
+                            <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
+                                <Link target='_blank' to='https://galaxy-meeting-app.web.app/'>
+                                    <div className="text-lg btn bg-rose-600 hover:bg-black hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full">
+                                        <button >Live link</button>
+                                        <HiLink className='text-white text-lg' />
+                                    </div>
+                                </Link>
+                                <details className="dropdown ">
+                                    <summary className="text-lg bg-white text-black hover:bg-black  hover:text-white rounded-xl uppercase m-1 lg:w-[250px] w-full btn">
+                                        <BsGithub className='text-lg' /> GitHub
+                                    </summary>
+                                    <ul className="p-2 shadow menu dropdown-content z-[1] bg-transparent rounded-box md:w-52 w-full">
+                                        <Link target='_blank' to='https://github.com/Md-arefin/online-meeting-recording-app-client'>
+                                            <li className='bg-rose-600 rounded-lg text-lg font-semibold hover:bg-black hover:text-white '>
+                                                <span className='text-center rounded-lg'><BsGithub className='text-lg' />Client Side</span>
+                                            </li>
+                                        </Link>
+
+                                        <Link target='_blank' to='https://github.com/Md-arefin/online-meeting-recording-app-server/tree/main'>
+                                            <li className='bg-rose-600 rounded-lg text-lg font-semibold mt-5 hover:bg-black hover:text-white'>
+                                                <span className='text-center rounded-lg'> <BsGithub className='text-lg' />Server Side</span>
+                                            </li>
+                                        </Link>
+                                    </ul>
+                                </details>
+                            </div>
+                        </div>
+
+                        <div className='lg:mt-20 group-hover:scale-[1.3] transition-all duration-300 ease-in-out'>
+                            <img className='rounded-xl' src="https://i.ibb.co/6w4Vv7y/Screenshot-153.png" alt="" />
+                        </div>
+                    </div>
+
+                    {/* 2*/}
                     <div className='flex flex-col md:flex-row justify-between gap-10 group'>
                         <div className='lg:mt-20 group-hover:scale-[1.3] transition-all duration-300 ease-in-out'>
                             <img className='rounded-xl' src="https://i.ibb.co/q7zXCj2/AF-Elegance.png" alt="" />
@@ -35,7 +79,7 @@ const Projects = () => {
                                 <h2 className='text-center text-3xl font-bold mb-5 hover:bg-black hover:text-white'>A&F Elegance</h2>
                             </div>
                             <p className='md:my-5'>
-                                I developed an e-commerce website specializing in dress sales, implementing a role-based access system distinguishing between admins and regular users. The technology stack used for this project includes AXIOS, React, Tailwind CSS, Firebase, MongoDB, Stripe for payment processing, JWT for authentication, Vercel for hosting, JavaScript, React Query, Node.js, and Express.js. The platform allows admins to manage products through functions like adding, editing, and deleting items, as well as overseeing user management, including promotions to admin roles and user deletions. On the user side, customers can shop for dresses, review their purchases, and interact with the website.
+                                A&F Elegance is an e-commerce website specializing in dress sales, implementing a role-based access system distinguishing between admins and regular users. The technology stack used for this project includes AXIOS, React, Tailwind CSS, Firebase, MongoDB, Stripe for payment processing, JWT for authentication, Vercel for hosting, JavaScript, React Query, Node.js, and Express.js. The platform allows admins to manage products through functions like adding, editing, and deleting items, as well as overseeing user management, including promotions to admin roles and user deletions. On the user side, customers can shop for dresses, review their purchases, and interact with the website.
                             </p>
                             <div className='mt-10 text-center flex flex-col md:flex-row gap-10 md:items-center md:justify-between mb-32 '>
                                 <Link target='_blank' to='https://af-elegance.web.app/'>
@@ -66,7 +110,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* 2*/}
+                    {/* 3 */}
                     <div className='flex flex-col-reverse md:flex-row justify-between gap-10 group'
                     >
                         <div className='lg:w-1/2' >
@@ -116,7 +160,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* 3*/}
+                    {/* 4 */}
                     <div className='flex flex-col md:flex-row justify-between gap-10 group'>
                         <div className='lg:mt-20 group-hover:scale-[1.3] transition-all duration-300 ease-in-out'>
                             <img className='rounded-xl' src="https://i.ibb.co/DGqYXL2/Creative-Capture-1.png" alt="" />
@@ -158,7 +202,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* 4 */}
+                    {/* 5 */}
                     <div className='flex flex-col-reverse md:flex-row justify-between gap-10 group'>
                         <div className='lg:w-1/2'>
                             <div className='flex gap-5'>
@@ -203,7 +247,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* 5 */}
+                    {/* 6 */}
                     <div className='flex flex-col md:flex-row justify-between gap-10 group'>
                         <div>
                             <div className='lg:mt-10 group-hover:scale-[1.3] transition-all duration-300 ease-in-out'>

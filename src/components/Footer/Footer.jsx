@@ -1,6 +1,5 @@
 import React from 'react';
 import my1 from '../../assets/my-1 (1).jpg';
-import my2 from '../../assets/my-1 (2).jpg';
 
 const Footer = () => {
 
@@ -15,11 +14,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <p>
-                        <span className='font-bold text-3xl'>
+                        <span className='font-bold text-3xl font-serif'>
                             Rakibul Ansari Arifin
                         </span>
-                        <br />
-                        Providing reliable tech since 20223
                     </p>
                 </div>
                 <div>
@@ -43,7 +40,7 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </div>
             </footer>
-            <div className="footer footer-center p-4 bg-slate-800 text-base-content">
+            <div className="footer footer-center p-4 bg-slate-300 text-black">
                 <div>
                     <p>Copyright © 2023 - All right reserved by Rakibul Ansari Arifin Ltd.</p>
                 </div>
